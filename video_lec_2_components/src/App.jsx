@@ -1,10 +1,11 @@
-import card from "./components/card.jsx";
+import Card from "./components/card.jsx";
+import Navbar from "./components/navbar.jsx";
 
 function read() {
   return (
     <div>
-      {card()}
-      {card()}
+      {Card()}
+      {Navbar()}
     </div>
   );
 }
