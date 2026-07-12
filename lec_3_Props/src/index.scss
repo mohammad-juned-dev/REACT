@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.parent {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+  .card {
+   
+    place-items: center;
+    border: 2px solid rgb(239, 11, 11);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: black;
+display: flex;
+flex-direction: column;
+
+    h1 {
+      color: white;
+    }
+    p{
+      text-align: center;
+      margin: 20px 0;
+      width: 150px;
+    }
+    button {
+      padding: 5px 25px;
+      border: 2px solid white;
+      color: white;
+      text-align: center;
+    }
+    img{
+      height: 200px;
+      width: 200px;
+      object-fit: cover;
+      border-radius: 30px;
+    }
+  }
+}
